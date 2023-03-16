@@ -19,7 +19,7 @@ function Questiondetails() {
     const navigate = useNavigate()
     const dispatch = useDispatch()
     const location = useLocation()
-    const url = "http:/localhost:3000"
+    const url = "https://stackoverflow-clone-backend-dp3s.onrender.com"
 
     const [Answer, setAnswer] = useState("")
     const User = useSelector((state) => (state.currentUserReducer))
